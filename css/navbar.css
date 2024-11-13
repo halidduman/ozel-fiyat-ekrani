@@ -31,8 +31,14 @@ body {
   padding: 0 10%;
 }
 
+.logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #logo {
-  height: 90px;
+  height: 100px;
 }
 
 .nav-link {
@@ -189,7 +195,7 @@ body {
     height: 15px;
     width: 15px;
     right: 7px;
-    top: 8px;
+    top: 7px;
   }
 
   .nav-link {
@@ -207,5 +213,9 @@ body {
 
   .nav-link {
     display: none;
+  }
+
+  .button-text {
+    font-size: 5px;
   }
 }
