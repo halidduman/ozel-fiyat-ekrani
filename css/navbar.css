@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  background-color: #0271f7;
+}
+
+.mobile-menu-icon img {
+  height: 20px;
+  width: 20px;
+  background-color: #0d221b;
+  border-radius: 50px;
+  padding: 5px;
+  display: none;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+
+#logo {
+  height: 90px;
+}
+
+.nav-link {
+  display: flex;
+  gap: 50px;
+}
+.nav-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  transition: all 0.3s;
+}
+
+.nav-link a:hover {
+  color: #ff5500;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.icon-button {
+  background-color: #0d221b;
+  border: none;
+  padding: 12px 50px 12px 20px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+
+.button-icon {
+  background-color: #ff5500;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  right: 10px;
+  top: 7px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: 0.5s all;
+}
+
+.icon-button:hover {
+  background-color: #ff5500;
+  color: #ff550000;
+}
+
+.button-icon img {
+  height: 50%;
+  transform: rotate(-50%, 50%);
+}
+
+.button-icon img {
+  height: 50%;
+  transform: rotate(-50%, 50%);
+  transition: all 0.5s;
+}
+
+.icon-button:hover .button-icon {
+  right: 50%;
+  transform: translate(50%);
+}
+.icon-button:hover .button-icon img {
+  transform: rotate(45deg);
+}
+
+.mobile-menu {
+}
+
+/*! ----------------------------------------- responsive */
+
+/* tablet */
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 0 5%;
+  }
+
+  .nav-link a {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .icon-button {
+    padding: 8px 40px 8px 10px;
+    font-size: 13px;
+  }
+
+  .button-icon {
+    height: 20px;
+    width: 20px;
+    right: 10px;
+    top: 8px;
+  }
+
+  .nav-link {
+    display: flex;
+    gap: 20px;
+  }
+
+  #logo {
+    height: 60px;
+  }
+}
+
+/* mobil */
+@media (max-width: 510px) {
+  .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .icon-button {
+    padding: 8px 25px 8px 8px;
+    font-size: 8px;
+  }
+
+  .button-icon {
+    height: 15px;
+    width: 15px;
+    right: 7px;
+    top: 8px;
+  }
+
+  .nav-link {
+    display: flex;
+    gap: 14px;
+  }
+
+  #logo {
+    height: 30px;
+  }
+}
+@media (max-width: 365px) {
+  .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .icon-button {
+    padding: 8px 25px 8px 8px;
+    font-size: 8px;
+  }
+
+  .button-icon {
+    height: 15px;
+    width: 15px;
+    right: 7px;
+    top: 8px;
+  }
+
+  .nav-link {
+    display: flex;
+    gap: 14px;
+  }
+
+  #logo {
+    height: 30px;
+  }
+
+  .mobile-menu-icon img {
+    display: block;
+  }
+
+  .nav-link {
+    display: none;
+  }
+}
