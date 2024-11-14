@@ -100,3 +100,67 @@ p {
   height: 24px;
   width: 24px;
 }
+
+/* responsive */
+
+@media (max-width: 990px) {
+  .price {
+    font-size: 1.5rem;
+  }
+
+  .price h4 {
+    font-size: 1.5rem;
+  }
+  .price p {
+    font-size: 1.3rem;
+  }
+
+  .price button {
+    right: 12px;
+    height: 28px;
+    width: 28px;
+  }
+}
+
+@media (max-width: 690px) {
+  .price-container {
+    top: 22%;
+    padding: 0 0px;
+  }
+
+  .container-box {
+    width: 100%;
+  }
+
+  .price-title {
+    font-size: 0.8rem;
+    padding-top: 0.8rem;
+  }
+
+  .price-title img {
+    height: 14px;
+  }
+
+  .price {
+    font-size: 1.2rem;
+    height: 60px;
+    margin: 1px;
+    padding: 0 0 0 0;
+  }
+
+  .price h4 {
+    font-size: 1.2rem;
+  }
+
+  .price p {
+    font-size: 1rem;
+  }
+
+  .price button {
+    display: none;
+  }
+
+  .price-title p img {
+    display: none;
+  }
+}

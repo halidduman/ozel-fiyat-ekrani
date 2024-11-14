@@ -235,6 +235,6 @@ body {
 
   .bacground {
     height: 40vh;
-    border-radius: 0 0 50% 50%;
+    border-radius: 0 0 10% 10%;
   }
 }
