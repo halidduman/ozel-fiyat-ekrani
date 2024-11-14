@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+::selection {
+  background-color: #ff9100;
+  color: #000;
+}
+
+p {
+  font-family: "Roboto", serif;
+}
+
+.price-container {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  top: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-box {
+  box-shadow: rgb(9, 9, 9) 0px 5px 15px;
+  border: 5px solid #ff5500;
+  background-color: aliceblue;
+  height: 100vh;
+  width: 75%;
+  border-radius: 25px;
+}
+
+.price-title {
+  border-radius: 19px 19px 0 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 1.2rem;
+  background-color: #ff5500;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: white;
+}
+
+.price-title p {
+  border-bottom: 2px solid white;
+}
+
+.price {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e0e7ef;
+  color: #0d221b;
+  font-size: 1.2rem;
+  border: 2px solid #ff5500;
+  margin: 2px;
+  padding: 0 0 0 3%;
+  border-radius: 8px;
+}
+
+.price h4 {
+  font-family: 900;
+  font-size: 1.8rem;
+  flex: 1; /* H4 elementine eşit bir genişlik ver */
+}
+
+.price p {
+  flex: 1; /* P elementine de eşit bir genişlik ver */
+  text-align: center; /* Ortala */
+}
