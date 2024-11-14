@@ -191,11 +191,6 @@ body {
   #logo {
     height: 30px;
   }
-
-  .bacground {
-    height: 50vh;
-    border-radius: 0 0 50% 50%;
-  }
 }
 @media (max-width: 365px) {
   .nav-link a {
