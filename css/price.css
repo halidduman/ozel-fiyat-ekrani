@@ -19,12 +19,13 @@ p {
 }
 
 .container-box {
+  position: relative;
   box-shadow: rgb(9, 9, 9) 0px 5px 15px;
   border: 5px solid #ff5500;
   background-color: aliceblue;
-  height: 100vh;
   width: 75%;
-  border-radius: 25px;
+  border-radius: 25px 25px 10px 10px;
+  padding-bottom: 1px;
 }
 
 .price-title {
@@ -44,14 +45,16 @@ p {
 }
 
 .price {
+  height: 80px;
   position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #e0e7ef;
+  background-color: white;
   color: #0d221b;
-  font-size: 1.2rem;
-  border: 2px solid #ff5500;
+  font-size: 1.8rem;
+  font-weight: 500;
+  /* border-bottom: 1px solid #6c6c6c; */
   margin: 2px;
   padding: 0 0 0 3%;
   border-radius: 8px;
@@ -66,4 +69,25 @@ p {
 .price p {
   flex: 1; /* P elementine de eşit bir genişlik ver */
   text-align: center; /* Ortala */
+}
+.price button {
+  position: absolute;
+  right: 12px;
+  background-color: #ff5500;
+  border: none;
+  border-radius: 100px;
+  height: 38px;
+  width: 38px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.price button:hover {
+  background-color: #0d221b;
+}
+
+.price button img {
+  height: 24px;
+  width: 24px;
 }
